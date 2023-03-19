@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C4F352B29C5D52A008627A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F352A29C5D52A008627A3 /* AppDelegate.swift */; };
 		3C4F352D29C5D52A008627A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F352C29C5D52A008627A3 /* SceneDelegate.swift */; };
-		3C4F352F29C5D52A008627A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F352E29C5D52A008627A3 /* ViewController.swift */; };
 		3C4F353229C5D52A008627A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F353029C5D52A008627A3 /* Main.storyboard */; };
 		3C4F353529C5D52A008627A3 /* IOSdoMORE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F353329C5D52A008627A3 /* IOSdoMORE.xcdatamodeld */; };
 		3C4F353729C5D52B008627A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F353629C5D52B008627A3 /* Assets.xcassets */; };
@@ -17,6 +16,13 @@
 		3C4F354529C5D52B008627A3 /* IOSdoMORETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F354429C5D52B008627A3 /* IOSdoMORETests.swift */; };
 		3C4F354F29C5D52B008627A3 /* IOSdoMOREUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F354E29C5D52B008627A3 /* IOSdoMOREUITests.swift */; };
 		3C4F355129C5D52B008627A3 /* IOSdoMOREUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F355029C5D52B008627A3 /* IOSdoMOREUITestsLaunchTests.swift */; };
+		3C4F356129C5D5B6008627A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F355F29C5D5B6008627A3 /* HomeViewController.swift */; };
+		3C4F356229C5D5B6008627A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F356029C5D5B6008627A3 /* HomeViewController.xib */; };
+		3C4F356529C5D94D008627A3 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F356329C5D94D008627A3 /* ScrollViewController.swift */; };
+		3C4F356629C5D94D008627A3 /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F356429C5D94D008627A3 /* ScrollViewController.xib */; };
+		3C4F356929C5E7B8008627A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F356829C5E7B7008627A3 /* Item.swift */; };
+		3C4F357229C5E8A9008627A3 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4F357029C5E8A9008627A3 /* ItemCollectionViewCell.swift */; };
+		3C4F357329C5E8A9008627A3 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4F357129C5E8A9008627A3 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		3C4F352729C5D52A008627A3 /* IOSdoMORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSdoMORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4F352A29C5D52A008627A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C4F352C29C5D52A008627A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C4F352E29C5D52A008627A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C4F353129C5D52A008627A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C4F353429C5D52A008627A3 /* IOSdoMORE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSdoMORE.xcdatamodel; sourceTree = "<group>"; };
 		3C4F353629C5D52B008627A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		3C4F354A29C5D52B008627A3 /* IOSdoMOREUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSdoMOREUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4F354E29C5D52B008627A3 /* IOSdoMOREUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSdoMOREUITests.swift; sourceTree = "<group>"; };
 		3C4F355029C5D52B008627A3 /* IOSdoMOREUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSdoMOREUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C4F355F29C5D5B6008627A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C4F356029C5D5B6008627A3 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		3C4F356329C5D94D008627A3 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		3C4F356429C5D94D008627A3 /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
+		3C4F356829C5E7B7008627A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3C4F357029C5E8A9008627A3 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		3C4F357129C5E8A9008627A3 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +113,12 @@
 		3C4F352929C5D52A008627A3 /* IOSdoMORE */ = {
 			isa = PBXGroup;
 			children = (
+				3C4F356F29C5E896008627A3 /* cells */,
+				3C4F356729C5E7A2008627A3 /* model */,
+				3C4F355E29C5D59D008627A3 /* controllers */,
+				3C4F355D29C5D559008627A3 /* apputils */,
 				3C4F352A29C5D52A008627A3 /* AppDelegate.swift */,
 				3C4F352C29C5D52A008627A3 /* SceneDelegate.swift */,
-				3C4F352E29C5D52A008627A3 /* ViewController.swift */,
-				3C4F353029C5D52A008627A3 /* Main.storyboard */,
-				3C4F353629C5D52B008627A3 /* Assets.xcassets */,
-				3C4F353829C5D52B008627A3 /* LaunchScreen.storyboard */,
 				3C4F353B29C5D52B008627A3 /* Info.plist */,
 				3C4F353329C5D52A008627A3 /* IOSdoMORE.xcdatamodeld */,
 			);
@@ -128,6 +140,44 @@
 				3C4F355029C5D52B008627A3 /* IOSdoMOREUITestsLaunchTests.swift */,
 			);
 			path = IOSdoMOREUITests;
+			sourceTree = "<group>";
+		};
+		3C4F355D29C5D559008627A3 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F353029C5D52A008627A3 /* Main.storyboard */,
+				3C4F353829C5D52B008627A3 /* LaunchScreen.storyboard */,
+				3C4F353629C5D52B008627A3 /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		3C4F355E29C5D59D008627A3 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F355F29C5D5B6008627A3 /* HomeViewController.swift */,
+				3C4F356029C5D5B6008627A3 /* HomeViewController.xib */,
+				3C4F356329C5D94D008627A3 /* ScrollViewController.swift */,
+				3C4F356429C5D94D008627A3 /* ScrollViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		3C4F356729C5E7A2008627A3 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F356829C5E7B7008627A3 /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3C4F356F29C5E896008627A3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				3C4F357029C5E8A9008627A3 /* ItemCollectionViewCell.swift */,
+				3C4F357129C5E8A9008627A3 /* ItemCollectionViewCell.xib */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +286,10 @@
 			files = (
 				3C4F353A29C5D52B008627A3 /* LaunchScreen.storyboard in Resources */,
 				3C4F353729C5D52B008627A3 /* Assets.xcassets in Resources */,
+				3C4F356629C5D94D008627A3 /* ScrollViewController.xib in Resources */,
+				3C4F357329C5E8A9008627A3 /* ItemCollectionViewCell.xib in Resources */,
 				3C4F353229C5D52A008627A3 /* Main.storyboard in Resources */,
+				3C4F356229C5D5B6008627A3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4F352F29C5D52A008627A3 /* ViewController.swift in Sources */,
 				3C4F352B29C5D52A008627A3 /* AppDelegate.swift in Sources */,
 				3C4F352D29C5D52A008627A3 /* SceneDelegate.swift in Sources */,
+				3C4F356529C5D94D008627A3 /* ScrollViewController.swift in Sources */,
 				3C4F353529C5D52A008627A3 /* IOSdoMORE.xcdatamodeld in Sources */,
+				3C4F356929C5E7B8008627A3 /* Item.swift in Sources */,
+				3C4F356129C5D5B6008627A3 /* HomeViewController.swift in Sources */,
+				3C4F357229C5E8A9008627A3 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
