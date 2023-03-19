@@ -41,6 +41,10 @@ class HomeViewController: UIViewController,UICollectionViewDataSource,UICollecti
         items.append(Item(title: "Amazon Coding", image: "ic_image2"))
         items.append(Item(title: "Best Coding", image: "ic_image1"))
         items.append(Item(title: "Amazon Coding", image: "ic_image2"))
+        items.append(Item(title: "Best Coding", image: "ic_image1"))
+        items.append(Item(title: "Amazon Coding", image: "ic_image2"))
+        items.append(Item(title: "Best Coding", image: "ic_image1"))
+        items.append(Item(title: "Amazon Coding", image: "ic_image2"))
     }
     
     func addNavigationBar(){
